@@ -1,8 +1,7 @@
 # MLA Fitness App
 
-A simple and interactive fitness tracking application that enables users to track exercises and goals, monitor progress, and view analytics. Built as a microservices architecture featuring Node.js, Python (Flask), and Java (Spring Boot)
+A comprehensive fitness tracking application built with microservices architecture using Node.js, Python (Flask), Java (Spring Boot), and React, enabling users to log exercises, set goals, and analyse their fitness progress. This project was developed as part of a Code First Girls (CFG) mid-level group project, utilising Agile methodologies to coordinate development across multiple team members. The application demonstrates modern software engineering practices through containerised microservices, automated CI/CD pipelines, and comprehensive testing strategies.
 
-![Screenshot](screenshots/frontpage.png)
 
 ## Table of Contents
 
