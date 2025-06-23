@@ -1,0 +1,4 @@
+{
+  "mongoUri": "mongodb://${MONGO_INITDB_ROOT_USERNAME}:${MONGO_INITDB_ROOT_PASSWORD}@mongodb:27017",
+  "mongoDb": "activity"
+}

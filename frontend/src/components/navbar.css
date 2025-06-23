@@ -1,0 +1,81 @@
+/* Navbar background */
+.navbar {
+  background-color: var(--primary-color);
+}
+
+.navbar-nav {
+  margin: 0 auto !important;
+}
+
+.custom-nav-link {
+  margin-left: 10px;
+  margin-right: 15px;
+  color: #000000;
+}
+
+.custom-navbar-toggler.navbar-toggler {
+  border: none !important;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  --bs-navbar-toggler-focus-width: 0;
+}
+
+.custom-navbar-toggler.navbar-toggler .navbar-toggler-icon {
+  width: 30px;
+  height: 2px;
+  background-color: var(--secondary-color);
+  background-image: none;
+  position: relative;
+  display: block;
+  transition: all 0.3s ease-in-out;
+  padding: 0;
+  margin: 0;
+}
+
+/* Top and bottom bars */
+.custom-navbar-toggler.navbar-toggler .navbar-toggler-icon::before,
+.custom-navbar-toggler.navbar-toggler .navbar-toggler-icon::after {
+  content: "";
+  width: 30px;
+  height: 2px;
+  background-color: var(--secondary-color);
+  position: absolute;
+  left: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-navbar-toggler.navbar-toggler .navbar-toggler-icon::before {
+  top: -8px;
+}
+
+.custom-navbar-toggler.navbar-toggler .navbar-toggler-icon::after {
+  top: 8px;
+}
+
+.custom-navbar-toggler.navbar-toggler.collapsed .navbar-toggler-icon {
+  background-color: var(--secondary-color);
+  width: 30px;
+  height: 2px;
+}
+
+.custom-navbar-toggler.navbar-toggler:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25); /* Set to match Bootstrap's built-in blue focus shadow */
+}
+
+/* When the toggle is active (cross icon) */
+.custom-navbar-toggler.navbar-toggler.active .navbar-toggler-icon {
+  background-color: transparent !important;
+}
+
+.custom-navbar-toggler.navbar-toggler.active .navbar-toggler-icon::before {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+.custom-navbar-toggler.navbar-toggler.active .navbar-toggler-icon::after {
+  transform: rotate(-45deg);
+  top: 0;
+}

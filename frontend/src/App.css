@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=GeneralSans:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #bf5436;
+  --primary-hover-color: #bf5436;
+  --secondary-color: #262135;
+  --text-color: #262135;
+  --success-color: green;
+  --background-color: #f0f0f0;
+  --footer-text-color:#707070;
+}
+
+body,
+html,
+div,
+h1,
+h2,
+h3,
+p,
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: "General Sans", sans-serif;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+  color: var(--text-color);
+}
+
+#appLogo {
+  width: 300px;
+  height: auto;
+}
+
+.App {
+  text-align: center;
+  max-width: 650px;
+  margin: auto;
+  padding: 20px;
+}
+
+.appTitle h1 {
+  color: var(--primary-color);
+  font-size: 36px;
+  margin: 40px 0 40px 0;
+}
+
+.appTitle {
+  margin: 40px 0 40px 0;
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+button.navigationButton {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 50px;
+}
+
+button.navigationButton:hover {
+  background-color: #ff66b2;
+}
+
+/* Style the success message */
+p.successMessage {
+  color: green;
+  margin-bottom: 20px;
+}
+
+.componentContainer {
+  padding: 30px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.btn-success {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.btn-success:hover {
+  background-color: var(--secondary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+input#duration {
+  width: 20%;
+  margin: auto;
+}
+
+.form-margin {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+  color: var(--footer-text-color);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.signup {
+  margin: 20px;
+}
