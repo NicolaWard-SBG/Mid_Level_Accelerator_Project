@@ -1,0 +1,8 @@
+[tool.codespell]
+skip = "yarn.lock,*.cjs,*.yaml,*.html,*.mdx"
+check-hidden = false
+count = ""
+quiet-level = 3
+ignore-words-list = "aks,get's,diable, sherif,vEw,Oje"
+[tool.isort]
+profile = "black"

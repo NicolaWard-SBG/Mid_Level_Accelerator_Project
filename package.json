@@ -1,0 +1,21 @@
+{
+  "name": "mla-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "cucumber": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.0.1",
+    "eslint-plugin-jest": "^28.9.0"
+  },
+  "dependencies": {
+    "express-validator": "^7.2.0",
+    "mongoose": "^8.8.2"
+  }
+}
